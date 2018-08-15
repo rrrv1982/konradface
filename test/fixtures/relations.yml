@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  allowed_name: false
+  allowed_surname: false
+  allowed_email: false
+  allowed_telephone: false
+  allowed_date: false
+
+two:
+  allowed_name: false
+  allowed_surname: false
+  allowed_email: false
+  allowed_telephone: false
+  allowed_date: false

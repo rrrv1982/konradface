@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Allowed name:</strong>
+  <%= @relation.allowed_name %>
+</p>
+
+<p>
+  <strong>Allowed surname:</strong>
+  <%= @relation.allowed_surname %>
+</p>
+
+<p>
+  <strong>Allowed email:</strong>
+  <%= @relation.allowed_email %>
+</p>
+
+<p>
+  <strong>Allowed telephone:</strong>
+  <%= @relation.allowed_telephone %>
+</p>
+
+<p>
+  <strong>Allowed date:</strong>
+  <%= @relation.allowed_date %>
+</p>
+
+<%= link_to 'Edit', edit_relation_path(@relation) %> |
+<%= link_to 'Back', relations_path %>
